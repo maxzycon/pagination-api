@@ -28,27 +28,27 @@
         }
     </style>
 </head>
-<body>
-    <section style="height:100vh;position:relative;background-color: beige;">
-        <div style="padding-top: 5vh;">
-            <div style="display:flex;justify-content:center">
-                <span>Perpage</span>
-                <select id="perpage">
-                    <option value="3" selected>3</option>
-                    <option value="4">4</option>
-                    <option value="6">6</option>
-                </select>
-            </div>
-            <h1 style="text-align: center;padding-bottom:30px">Daftar Pengguna</h1>
-            
-        </div>
+    <div style="display:flex;justify-content:center">
+        <span>Perpage</span>
+        <select id="perpage">
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+        </select>
+    </div>
+
+    <section style="height:100vh;position:relative;">
+    <div style="padding-top: 5vh;">
+    <h1 style="text-align: center;padding-bottom:30px">Daftar Pengguna</h1>
+    
+    </div>
+
+    <div style="position: absolute;display:flex;right:0;bottom:0;left:0;top:0;justify-content:center;align-items:center" id="html">
         
-        <div style="position: absolute;display:flex;right:0;bottom:0;left:0;top:0;justify-content:center;align-items:center" id="html">
-                
-        </div>
-        <div style="position: absolute;bottom: 0;right:0;left:0;display: flex; justify-content: center;" id="pagination">
-            
-        </div>
+    </div>
+    <div style="position: absolute;bottom: 0;right:0;left:0;display: flex; justify-content: center;" id="pagination">
+    
+    </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
